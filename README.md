@@ -44,4 +44,10 @@ y la respuesta para dicha consulta deberá podría ser:
 
 Dado que la plataforma está en fase de expansión, el catálogo de cursos puede aumentar y con él las temáticas ofrecidas en cada una de las escuelas. Por lo tanto, el sistema deberá estar preparado par contemplar esta evolución.
 
-Para comprobar el correcto funcionamiento del código, está disponible un conjunto de casos de uso (fichero *test-cases*) y un script de verificación de estos ( https://go.oei.int/test-script-2023 ).
+Para comprobar el correcto funcionamiento del código, está disponible un conjunto de casos de uso adjunto (fichero *test-cases*) y un script de verificación de estos ( https://go.oei.int/test-script-2023 ).
+
+## Entrega de la prueba
+
+La entrega se realizará mediante el envío de un enlace al repositorio pde github.com o de gitlab.com donde se haya resuelto la prueba. Además del código del API generado, el repositorio deberá incluir una copia del script de verificación utilizado y toda la documentación que se haya generado para la resolución del problema.
+
+Mucha suerte.
