@@ -38,11 +38,11 @@ Y las escuelas y temáticas posibles para los cursos ofrecidos son las siguiente
   
 Dado que la plataforma está en fase de expansión, el catálogo de cursos puede aumentar y con él las temáticas ofrecidas en cada una de las escuelas. Por lo tanto, el sistema deberá estar preparado para contemplar esta evolución.
 
-Así, un ejemplo de petición será el siguiente:
+Así, un ejemplo de petición podría ser el siguiente:
 
     {"criteria":["closest","school-cooperacion"],"editions":[{"date": "2023-06-01","courses":[ {"name": "Especialista en cooperación internacional", "type": "cooperacion"},{"name":"Divulgación y cooperación de la ciencia","type":"divulgacion-cientifica"}]},{"date":"2023-09-01","courses":[{"name":"Comprendiendo el portugués","type":"portugues"}, ... 
 
-y una respuesta para dicha consulta deberá podría ser:
+cuya respuesta será:
 
     [{"date": "2023-06-01","courses":["Especialista en cooperación internacional"]}]
 
