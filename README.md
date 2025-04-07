@@ -35,30 +35,31 @@ Inicialmente, os critérios de seleção dos cursos serão temporais, de acordo 
 As escolas e temáticas possíveis para os cursos oferecidos são as seguintes:
 
 * **educacao**
-* * **infantil**
-* * **competencias-digitais**
-* * **governanca**
+  * **infantil**
+  * **competencias-digitais**
+  * **governanca**
 * **linguas**
-* * **aymara**
-* * **quechua**
-* * **quechua collao**
+  * **aymara**
+  * **nheengatu**
+  * **quechua**
+  * **tupari**
 * **ciencia-e-cultura**
-* * **educacao-artistica**
-* * **divulgacao-cientifica**
+  * **educacao-artistica**
+  * **divulgacao-cientifica**
 * **cooperacao**
-* * **cooperacao**
+  * **cooperacao**
 
 Como a plataforma está em fase de expansão, o catálogo de cursos pode crescer, e com ele as temáticas oferecidas em cada escola. Portanto, o sistema deverá estar preparado para considerar essa evolução.
 
 Um exemplo de requisição seria o seguinte:
 
-    {"criteria":["closest","school-cooperacion"],"editions":[{"date": "2023-06-01","courses":[ {"name": "Especialista en cooperación internacional", "type": "cooperacion"},{"name":"Divulgación y cooperación de la ciencia","type":"divulgacion-cientifica"}]},{"date":"2023-09-01","courses":[{"name":"Comprendiendo el portugués","type":"portugues"}, ... 
+    {"criteria":["closest","school-cooperacao"],"editions":[{"date": "2025-06-01","courses":[ {"name": "Especialista em cooperação internacional", "type": "cooperacao"},{"name":"Divulgação e cooperação da ciência","type":"divulgacao-cientifica"}]},{"date":"2025-09-01","courses":[{"name":"Compreendendo o tupari","type":"tupari"}, ... 
 
 cuja resposta será:
 
-    [{"date": "2023-06-01","courses":["Especialista en cooperación internacional"]}]
+    [{"date": "2025-06-01","courses":["Especialista em cooperação internacional"]}]
 
-Está disponível um conjunto de casos de uso (arquivo test-cases) e um script de verificação correspondente: https://go.oei.int/test-script-2023
+Está disponível um conjunto de casos de uso (arquivo test-cases-pt) e um script de verificação correspondente: https://go.oei.int/test-script-2023
 
 ### Entrega do teste
 
@@ -100,7 +101,10 @@ Y las escuelas y temáticas posibles para los cursos ofrecidos son las siguiente
   * **competencias-digitales**
   * **gobernanza**
 * **lenguas**
-  * **portugues**
+  * **aymara**
+  * **nheengatu**
+  * **quechua**
+  * **tupari**
 * **ciencia-y-cultura**
   * **educacion-artistica**
   * **divulgacion-cientifica**
@@ -111,13 +115,13 @@ Dado que la plataforma está en fase de expansión, el catálogo de cursos puede
 
 Así, un ejemplo de petición podría ser el siguiente:
 
-    {"criteria":["closest","school-cooperacion"],"editions":[{"date": "2023-06-01","courses":[ {"name": "Especialista en cooperación internacional", "type": "cooperacion"},{"name":"Divulgación y cooperación de la ciencia","type":"divulgacion-cientifica"}]},{"date":"2023-09-01","courses":[{"name":"Comprendiendo el portugués","type":"portugues"}, ... 
+    {"criteria":["closest","school-cooperacion"],"editions":[{"date": "2025-06-01","courses":[ {"name": "Especialista en cooperación internacional", "type": "cooperacion"},{"name":"Divulgación y cooperación de la ciencia","type":"divulgacion-cientifica"}]},{"date":"2025-09-01","courses":[{"name":"Comprendiendo el tupari","type":"tupari"}, ... 
 
 cuya respuesta será:
 
-    [{"date": "2023-06-01","courses":["Especialista en cooperación internacional"]}]
+    [{"date": "2025-06-01","courses":["Especialista en cooperación internacional"]}]
 
-Para comprobar el correcto funcionamiento del código, está disponible un conjunto de casos de uso adjunto (fichero *test-cases*) y un script de verificación de estos ( https://go.oei.int/test-script-2023 ).
+Para comprobar el correcto funcionamiento del código, está disponible un conjunto de casos de uso adjunto (fichero *test-cases-es*) y un script de verificación de estos ( https://go.oei.int/test-script-2023 ).
 
 ### Entrega de la prueba
 
